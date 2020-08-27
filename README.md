@@ -5,7 +5,7 @@ La segunda fase del proyecto “Adaptación de la Agricultura al Cambio Climáti
 
 El proyecto consiste de tres componentes:
 
-1. **Sistemas productivos**: el objetivo de este componente es contribuir a que pequeños y medianos productores diversifiquen sus sistemas de producción, adoptando buenas prácticas de cosecha y uso de agua, en función de mejorar la disponibilidad de alimentos e ingresos económicos. Se construirá infraestructura para la cosecha de agua y se promoverá la implementación de tecnologías y prácticas de uso y manejo de agua con los productores.
+1. **Sistemas productivos**: el objetivo de este componente es contribuir a que pequeños y medianos productores diversifiquen sus sistemas de producción, adoptando buenas prácticas de cosecha y uso de agua, en función de mejorar la disponibilidad de alimentos e ingresos económicos. Se construye infraestructura para la cosecha de agua y se promueve la implementación de tecnologías y prácticas de uso y manejo de agua con los productores.
 2. **Gestión del conocimiento**: este componente está dirigido a fortalecer las capacidades de los actores participantes en el proyecto, para que puedan tomar mejores decisiones, desarrollar eficientemente las alternativas tecnológicas sobre la cosecha de agua de lluvias, así como lograr una mejora en la producción agrícola y pecuaria y por ende en la seguridad alimentaria y nutricional de las familias y el ingreso.
 3. **Gobernanza y participación ciudadana**: las premisas básicas de este componente comprenden un estímulo y apoyo a la gobernanza y la participación ciudadana en el uso y manejo eficiente del agua de lluvia para fines productivos, apoyándose en acciones de comunicación para el desarrollo, incidencia y creación de ciudadanía.
 
@@ -14,10 +14,11 @@ Los diez municipios de la zona centro norte de Nicaragua en los que se ejecuta e
 El proyecto cuenta con un sistema de información denominado Siscan, el cual, además de la interfaz de usuario, incluye una interfaz de programación de aplicaciones (API, Application Programming Interface), la cual permite el acceso a los datos a través de lenguajes de programación.
 
 ## El portal geoespacial
-Como parte del componente de gestión del conocimiento, se desarrolló un portal en Internet para la visualización y el análisis de los datos geoespaciales relacionados con la cosecha de agua, el cual permite dar seguimiento a un conjunto de indicadores de impacto y efecto previamente definidos, así como monitorear el avance del proyecto en general. El portal está disponible en la dirección [https://geo-cosecha-agua.github.io/](https://geo-cosecha-agua.github.io/).
+Como parte del componente de gestión del conocimiento, se ha desarrollado un portal en Internet para la visualización y el análisis de los datos geoespaciales relacionados con la cosecha de agua, el cual permite dar seguimiento a un conjunto de indicadores de impacto y efecto previamente definidos, así como monitorear el avance del proyecto en general. El portal está disponible en la dirección [https://geo-cosecha-agua.github.io/](https://geo-cosecha-agua.github.io/).
 
 A la fecha de escritura de este documento, el portal maneja dos conjuntos de datos principales:
 
 - **Beneficiarios**: son productores seleccionados para participar en el proyecto. Sobre estos, se incluyen datos personales (nombre, género, edad), datos de las fincas (ubicación, área), datos de la evaluación (fecha, puntaje, técnico evaluador) y tipo de obra planificada (ej. escorrentía, techo, manantial, asistencia técnica).
 - **Obras**: obras de cosecha de agua implementadas en las fincas de los productores, incluyendo su tipo (ej. reservorio, tanque tipo Zamorano, pila de concreto, conformación de manantiales), ubicación, capacidad y monto.
 
+El portal se aloja en la plataforma geoespacial del Catie, implementada en [ArcGIS Online](https://www.arcgis.com/). La interfaz de usuario final está basada en tableros de control (*dashboards*) desarrollados con la herramienta [ArcGIS Dashboards](https://www.esri.com/es-es/arcgis/products/arcgis-dashboards/overview), los cuales combinan mapas con gráficos estadísticos e información tabular.
