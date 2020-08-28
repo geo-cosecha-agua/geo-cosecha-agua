@@ -15,14 +15,14 @@ Los diez municipios de la zona centro norte de Nicaragua en los que se ejecuta e
 El proyecto cuenta con un sistema de información denominado Siscan, el cual, además de la interfaz de usuario, incluye una interfaz de programación de aplicaciones (API, *Application Programming Interface*), la cual permite el acceso a los datos a través de lenguajes de programación.
 
 ## El portal geoespacial
-Como parte del componente de gestión del conocimiento, se ha desarrollado un portal en Internet para la visualización y el análisis de los datos geoespaciales relacionados con la cosecha de agua, el cual permite dar seguimiento a un conjunto de indicadores de impacto y efecto previamente definidos, así como monitorear el avance del proyecto en general. El portal está disponible en la dirección [https://geo-cosecha-agua.github.io/](https://geo-cosecha-agua.github.io/).
+Como parte del componente de gestión del conocimiento, se ha desarrollado un portal en Internet para la visualización y el análisis de los datos geoespaciales relacionados con la cosecha de agua, el cual permite dar seguimiento a un conjunto de indicadores de impacto y efecto previamente definidos, así como monitorear el avance del proyecto en general. La página web que brinda acceso a los componentes del portal se encuentra en la dirección [https://geo-cosecha-agua.github.io/](https://geo-cosecha-agua.github.io/).
 
 A la fecha de escritura de este documento, el portal maneja dos conjuntos de datos principales:
 
 - **Beneficiarios**: son productores seleccionados para participar en el proyecto. Sobre estos, se incluyen datos personales (nombre, género, edad), datos de las fincas (ubicación, área), datos de la evaluación (fecha, puntaje, técnico evaluador) y tipo de obra planificada (ej. escorrentía, techo, manantial, asistencia técnica).
 - **Obras**: obras de cosecha de agua implementadas en las fincas de los productores, incluyendo su tipo (ej. reservorio, tanque tipo Zamorano, pila de concreto, conformación de manantiales), ubicación, capacidad y monto.
 
-El portal se aloja en la plataforma geoespacial del Catie, implementada a través de [ArcGIS Online](https://www.arcgis.com/). La interfaz de usuario final está basada en tableros de control (*dashboards*) desarrollados con la herramienta [ArcGIS Dashboards](https://www.esri.com/es-es/arcgis/products/arcgis-dashboards/overview), los cuales combinan mapas con gráficos estadísticos e información tabular. Los tableros de control acceden repositorios de datos publicados como servicios web.
+Los componentes del portal se alojan en la plataforma geoespacial del Catie, implementada a través de [ArcGIS Online](https://www.arcgis.com/). La interfaz de usuario final está basada en tableros de control (*dashboards*) desarrollados con la herramienta [ArcGIS Dashboards](https://www.esri.com/es-es/arcgis/products/arcgis-dashboards/overview), los cuales combinan mapas con gráficos estadísticos e información tabular. Los tableros de control acceden repositorios de datos publicados como servicios web.
 
 ## Repositorios
 - [https://github.com/geo-cosecha-agua/geo-cosecha-agua-informacion-general](https://github.com/geo-cosecha-agua/geo-cosecha-agua-informacion-general): este repositorio.
